@@ -220,15 +220,34 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.imagem-bloco {
-  width: 550px;
-  height: auto;
-  border-radius: 10px;
+.texto-analise {
+  max-width: 1500px;
+  text-align: justify;
 }
 
-.texto-analise {
-  max-width: 600px;
-  text-align: left;
+.containertextos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.texto-central-1{
+  line-height: 0.8;
+  background-color: #136313;
+  border-color: #136313;
+  border-radius: 10px;
+  max-width: 500px;
+  text-align: justify;
+}
+
+.texto-analise-1 p {
+  background-color: #136313;
+  border-radius: 10px;
+  border-color: #136313;
+  font-size: 30px;
+  max-width: 1500px;
+  text-align: center;
 }
 
 

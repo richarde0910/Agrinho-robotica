@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agrinho - Robótica</title>
+
+  <!-- Estilo CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">  <!--pega referencia bootstrap -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> <!-- pega formatação dos textos-->
+  <link rel="stylesheet" href="style.css" /> <!--definições do css-->
+
+</head>
+
+<body>
+
+<header>
+  <img src="cavanis.jpeg" alt="Logo do Colégio" class="logo-colegio" />
+  <strong>Projeto Laranjeiras</strong>
+</header>
+
+ <!-- BLOCO 1: Agrinho -->
+<div class="bloco-agrinho">
+  <h1>Agrinho</h1>
+  <img src="agrinho fotos.jpg" alt="Foto do agrinho" class="imagem-centralizada" />
+  <p> Em 2025, o Concurso Agrinho Robótica, promovido pelo Sistema FAEP/SENAR-PR em parceria com o Governo do Paraná, tem como tema central 
+    “Festejando a conexão campo-cidade”. Esse tema visa promover ações,
+     ideias e projetos que ofereçam soluções sustentáveis para o agronegócio, integrando a criatividade de estudantes e professores 
+     com seus conhecimentos acadêmicos e recursos tecnológicos </p>
+</div>
+
+  <!-- BLOCO 2: Projeto -->
+  <div class="bloco-projeto">
+    <img src="laranjeiras.jpg" alt="laranjas" class="imagem-lado" />
+    <div class="texto-lado">
+      <h2><strong>Projeto</strong></h2>
+      <p>Nosso projeto nasceu com a ideia de tornar a vida no campo mais fácil, eficiente e conectada. Queremos mostrar que a 
+        tecnologia pode ser uma grande aliada do agricultor, ajudando no cuidado diário com as plantações de forma prática e inteligente.</p>
+        <p>Através de soluções que facilitam o monitoramento e o uso consciente da água, buscamos
+contribuir para uma agricultura mais moderna, sustentável e acessível. É uma forma de unir inovação e simplicidade, oferecendo apoio real 
+a quem trabalha com a terra e mostrando como o campo e a tecnologia podem caminhar juntos para um futuro melhor.</p>
+    </div>
+  </div>
+
+  <!-- BLOCO 3: Greening -->
+<div class="bloco-greening">
+  <div class="texto-lado-2">
+   <h3><strong>Greening</strong></h3>
+   <p>
+    O Greening é uma doença grave que ataca as laranjeiras, causada por uma bactéria transmitida pelo inseto psilídeo. Ela enfraquece a 
+    planta e compromete os frutos.</p>
+    <p>Para ajudar no combate, nosso projeto usa o ESP32-CAM para tirar fotos de armadilhas na plantação e 
+    enviar essas imagens para agrônomos analisarem à distância. Assim, é possível detectar a presença do inseto mais rápido e agir antes que a 
+    doença se espalhe.
+   </p>
+  </div>
+    <img src="greening1.jpg" alt="Inseto psilídeo" class="imagem-lado-2"/>
+ </div>
+
+<!-- BLOCO 4: Circuitos --> 
+<div class="circuitos"> 
+  <h4><strong>Circuitos</strong></h4>
+  <div class="containertextos">
+        <div class="texto-central"> 
+          <ul><li><p><strong>Irrigador Automático</strong></p></li></ul> 
+          <ul><li><p><strong>Sensor de Chuva</strong></p></li></ul>
+          <ul><li><p><strong>Captador de Água</strong></p></li></ul>
+          <ul><li><p><strong>Display de Informações</strong></p></li></ul>
+          <ul><li><p><strong>Identificador de Greening</strong></p></li></ul>
+        </div>
+    <div class="texto-central">
+     <p><strong>-</strong> Sensor de úmidade, Relé, Bomba de Água</p>
+     <p><strong>-</strong> Sensor de Água, Módulo Convensor</p>
+     <p><strong>-</strong> Servo Motor</p>
+     <p><strong>-</strong> Display OLED</p>
+     <p><strong>-</strong> ESP32-CAM, Módulo conversor/conversor</p>
+    </div>
+    </div>
+
+<div class="container-carrossel"> 
+  <div class="carrossel">
+    <article class="card">
+      <img src="irrigador2.jpg" alt="circuito irrigação" class="imagem-carrossel">
+      <div class="legenda">Irrigador Automático</div>
+    </article>
+
+    <article class="card">
+      <img src="sensoragua.jpg" alt="circuito irrigação" class="imagem-carrossel">
+      <div class="legenda">Sensor de Chuva</div>
+    </article>
+
+    <article class="card">
+      <img src="servo.jpg" alt="circuito irrigação" class="imagem-carrossel">
+      <div class="legenda">Captador de Água</div>
+    </article>
+
+    <article class="card">
+      <img src="display.jpg" alt="circuito irrigação" class="imagem-carrossel">
+      <div class="legenda">Display de Informações</div>
+    </article>
+
+    <article class="card">
+      <img src="esp-cam.jpg" alt="circuito irrigação" class="imagem-carrossel">
+      <div class="legenda">Identificador de Greening</div>
+    </article>
+  </div>
+ </div>
+</div>
+
+
+  <!-- BLOCO 5: Solos e culturas-->
+<div class="bloco-solo-cultura">
+  <img src="para identificar.jpg" alt="Imagem da esquerda" class="imagem-lado5" />
+  
+  <div class="texto-central5">
+    <h5><strong>Solos e Culturas</strong></h5>
+    <p>Para cultivar laranjeiras com sucesso, o solo precisa ser profundo, fértil, bem drenado e ter pH entre 6,0 e 7,5. No Paraná, 
+      o solo mais comum é o latossolo, que possui boa drenagem, mas baixa 
+      fertilidade e pH ácido. Por isso, é necessário corrigir o solo com calcário e fazer adubação com fósforo e nitrogênio.
+    </p>
+    <P>Nas análises feitas no colégio, o solo apresentou pH médio de 5,0, indicando acidez. Para corrigir esse 
+      problema e aproximar o pH do ideal, foi adicionado cal à terra, elevando o pH para 6,5, o que favorece o desenvolvimento saudável da 
+      laranjeira.
+    </p>
+  </div>
+
+  <img src="laranjaetste.jpg" alt="Imagem da direita" class="imagem-lado5" />
+</div>
+
+
+  <!-- BLOCO 6: Analise orcamentaria -->
+   <div class="bloco-analise-orcamentaria">
+      <!--<img src="laranjeiras.jpg" alt="" class="imagem-bloco"/>-->
+    <div class="texto-analise">
+  <h6><strong>Análise Orçamentária</strong></h6>
+   <p> Para o cálculo do orçamento do nosso projeto na plantação de laranjeiras, consideramos o valor máximo permitido de R$ 5.000,00 por hectare.
+     Esse limite nos orienta a buscar soluções viáveis e de baixo custo, garantindo que a automação da irrigação seja acessível ao produtor rural e possa ser 
+     aplicada em larga escala.</p> </div>
+ 
+     <div class="texto-central-1"> 
+  <ul><li><p><strong>Arduino mega</strong></p></li></ul>
+  <ul><li><p><strong>Módulo relé 4 canais</strong></p></li></ul>
+  <ul><li><p><strong>Sensores</strong></p></li></ul>
+  <ul><li><p><strong>Bomba 12V</strong></p></li></ul>
+  <ul><li><p><strong>Tela OLED</strong></p></li></ul>
+  <ul><li><p><strong>servo</strong></p></li></ul>
+  <ul><li><p><strong>Fonte 12V</strong></p></li></ul>
+  <ul><li><p><strong>Tubos e Cabos</strong></p></li></ul>
+  <ul><li><p><strong>Montagem e Reserva</strong></p></li></ul>
+  <ul><li><p><strong>ESP32-CAM</strong></p></li></ul>
+  <ul><li><p><strong>Frete</strong></p></li></ul>
+
+ </div>
+ <div class="texto-central-1">
+ <p><strong>-></strong> R$ 599,50 </p>
+ <p><strong>-></strong> R$ 59,97</p>
+ <p><strong>-></strong> R$ 852,80</p>
+ <p><strong>-></strong> R$ 280,00</p>
+ <p><strong>-></strong> R$ 175,00</p>
+ <p><strong>-></strong> R$ 150,00</p>
+ <p><strong>-></strong> R$ 120,00</p>
+ <p><strong>-></strong> R$ 850,00</p>
+ <p><strong>-></strong> R$ 600,00</p>
+ <p><strong>-></strong> R$ 958,40</p>
+ <p><strong>-></strong> R$ 130,00</p>
+</div>
+<div class="texto-analise-1">
+  <p><strong>Total= R$ 4.601,08</strong></p>
+</div>
+  </div>
+
+ <!-- bloco 7: Galeria-->
+  <div class="bloco-galeria">
+    <h4><strong>Galeria de Fotos</strong></h4>
+
+
+        <div class="galeria-scroll">
+        <img src="cartao1.png" alt="Foto cartão da Galeria">
+        <img src="solo.jpg" alt="Foto solo">
+        <img src="solo sem pene.jpg" alt="Foto solo sem peneirar">
+        <img src="solo pene.jpg" alt="Foto solo peneirado">
+        <img src="prof e livs.jpg" alt="Foto professora e livia">
+        <img src="phs.jpg" alt="Foto pHs">
+        <img src="misturas.jpg" alt="Foto misturas">
+        <img src="para identificar.jpg" alt="Foto indentificadores">
+        <img src="indentificadores.jpg" alt="Foto indentificadores-2">
+        <img src="filtros.jpg" alt="Foto filtragem">
+        <img src="resultado 1.jpg" alt="Foto resultado pH">
+        <img src="phmetro.jpg" alt="Foto pHmetro">
+        <img src="teste hanna.jpg" alt="Foto teste com a prof Hannah">
+        <img src="cartao2.png" alt="Foto cartão da Galeria-2">
+        <img src="montagem1.jpg" alt="Foto montagem do circuito">
+        <img src="codigos.jpg" alt="Foto teste de codigos">
+        <img src="1teste-esp.jpg" alt="Foto Teste com esp">
+        <img src="circuitos.jpg" alt="Foto teste circuito">
+        <img src="ultimo-teste.jpg" alt="Foto Final">
+        <img src="foto-html-esp.jpg" alt="Foto Html esp">
+        <img src="site-esp.jpg" alt="Foto galeria esp">
+        <img src="maquete.jpg" alt="foto cartão da Galeria-3">
+        <img src="aroemamaquete.jpg" alt="Foto foto aroema">
+        <img src="visao-por-cima-maquete.jpg" alt="Foto visão de cima maquete">
+        <img src="visao-lateral-maquete.jpg" alt="Foto visão de lado-maquete">
+        </div>
+        </div>
+
+  <!-- BLOCO 8: Mais informações-->
+      <div class="bloco-mais-info">
+  <h4><strong>Mais Informações</strong></h4>
+  <p class="texto-cima"><strong>Aqui estão alguns links para você se aprofundar no nosso projeto:</strong></p>
+
+   <ul class="links-do-projeto">
+    <li><p><strong>Quer entender melhor o objetivo do nosso projeto?</strong> Acesse: 
+      <a href="https://aluno.escoladigital.pr.gov.br/robotica/concurso_agrinho" target="_blank">Site Agrinho Robótica</a></p></li>
+
+    <li><p><strong>Não sabe como cultivar sua própria laranjeira?</strong> Veja esta dica: 
+      <a href="https://youtu.be/Ua9R79TuO_E?feature=shared" target="_blank">Como Germinar sua Laranjeira</a></p></li>
+
+    <li><p> <strong>Ficou curioso sobre o greening?</strong> Veja esse vídeo: 
+      <a href="https://youtu.be/xAvSCNL0O9k?feature=shared" target="_blank">Greening</a></p></li>
+
+    <li><p><strong> Ideias relacionadas ao projeto:</strong> 
+      <a href="https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1150070/1/BoletimPesquisa140-Romulo-2022-AINFO.pdf" target="_blank">EMBRAPA- projeto Anti-greening</a></p></li>
+  </ul>
+</div>
+</div>
+
+</body>
+</html>
